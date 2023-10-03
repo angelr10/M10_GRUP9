@@ -4,7 +4,7 @@
 * [Classificar la empresa](https://github.com/angelr10/M10_GRUP9#classificar-la-empresa)
 * [Áreas funcionales](https://github.com/angelr10/M10_GRUP9#%C3%A1reas-funcionales)
 * [Necesidades de la empresa](https://github.com/angelr10/M10_GRUP9#necesidades-de-la-empresa)
-* [Tipos de clientes](https://github.com/angelr10/M10_GRUP9#definir-tipos-de-clientes)
+* [Tipos de clientes](https://github.com/angelr10/M10_GRUP9#tipos-de-clientes)
 * [Numeros de empleados](https://github.com/angelr10/M10_GRUP9#n%C3%BAmero-de-empleados-y-su-rol)
 
 ## Informacion empresa
