@@ -1,4 +1,4 @@
-# M10_GRUP9
+# ONG ESPERANZA SOLIDARIO
 ## Indice
 * Informacion empresa
 * Classificar la empresa
@@ -47,15 +47,36 @@ Personal capacitado para cocinar, atención médica básica, etc.
     
 - **Seguridad:** Medidas de seguridad adecuadas en el refugio de emergencia y el comedor social para proteger tanto a los beneficiarios como al personal y voluntarios.
 
+## Definir tipus de clients:
+ - Esperanza Solidaria es una ONG enfocada en el ámbito socioeconómico que dentro de España busca clientes que compartan nuestros ideales y que estén dispuestos a colaborar y ayudar con los proyectos que ofrecemos de forma solidaria.
 
+## Àrees funcionals:
+ #### Direcció (Pla estratègic):
+ - Director Ejecutivo: Encargado de la supervisión general y toma de decisiones estratégicas.
+ #### RRHH (Gestió de personal):
+ - Jefe de Recursos Humanos: Responsable de la gestión del personal y el voluntariado.
+ - Reclutamiento y selección: Encargado de la contratación y selección de personal y voluntarios.
+ - Formación y Desarrollo: Se ocupa de la capacitación y el desarrollo del personal y voluntarios.
+ - Gestión de Voluntarios: Coordinación de actividades y asignación de voluntarios a proyectos.
+ - Director de Programas: Supervisión de todas las actividades y programas de ayuda.
 
+#### Marketing i vendes
+  - Director de Marketing y Ventas: Responsable de las estrategias de promoción y captación de recursos.
+ - Marketing y Comunicaciones: Diseño e implementación de estrategias de marketing y - - comunicaciones.
+ - Campañas de Concienciación: Creación y ejecución de campañas para sensibilizar a la comunidad.
+ - Relaciones Públicas: Mantenimiento de relaciones con medios y colaboradores. 
+ - Redes Sociales y Página Web: Gestión de presencia en línea y redes sociales.
+ - Recopilación de Donaciones: Gestión de donaciones y recursos financieros.
+ - Eventos de Recaudación de Fondos: Organización de eventos para recaudar fondos.
+ - Ventas de Productos Benéficos: Si la ONG vende productos para recaudar fondos.
+ - Desarrollo de Productos: Diseño y desarrollo de productos benéficos.
+ - Ventas y Distribución: Venta y distribución de productos benéficos.
 
-
-
-
-
-
-
+#### Logistica
+ - Gestión financiera: Llevar registros precisos de ingresos y gastos, y administrar el presupuesto de la organización.
+ - Coordinación de entregas: Planificar rutas y tiempos para la distribución de comida y  ropa.
+ - Gestión de inventario: Mantener un inventario de las donaciones y controlar su distribución.
+ - Evaluar el impacto de tus programas y hacer ajustes según sea necesario para mejorar la eficacia.
 
 ## Número de empleados y su Rol
 - Directores de la empresa 4.
