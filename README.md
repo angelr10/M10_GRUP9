@@ -1,11 +1,11 @@
 # ONG ESPERANZA SOLIDARIA
 ## Indice
-* Informacion empresa [ Informacion empresa](https://github.com/angelr10/M10_GRUP9#informacion-empresa)
-* Classificar la empresa [Classificar la empresa](https://github.com/angelr10/M10_GRUP9#classificar-la-empresa)
-* Areas funcionales [Areas funcionales](https://www.google.com)
-* Necesidades de la empresa [Necesidades de la empresa](https://www.google.com)
-* Tipos de clientes [Tipos de clientes](https://www.google.com)
-* Numeros de empleados [Numeros de empleados](https://www.google.com)
+* [Informacion empresa](https://github.com/angelr10/M10_GRUP9#informacion-empresa)
+* [Classificar la empresa](https://github.com/angelr10/M10_GRUP9#classificar-la-empresa)
+* [Áreas funcionales](https://github.com/angelr10/M10_GRUP9#%C3%A1reas-funcionales)
+* [Necesidades de la empresa](https://github.com/angelr10/M10_GRUP9#necesidades-de-la-empresa)
+* [Tipos de clientes](https://github.com/angelr10/M10_GRUP9#definir-tipos-de-clientes)
+* [Numeros de empleados](https://github.com/angelr10/M10_GRUP9#n%C3%BAmero-de-empleados-y-su-rol)
 
 ## Informacion empresa
 Nuestra empresa es llamada:
@@ -73,7 +73,7 @@ Personal capacitado para cocinar, atención médica básica, etc.
     
 - **Seguridad:** Medidas de seguridad adecuadas en el refugio de emergencia y el comedor social para proteger tanto a los beneficiarios como al personal y voluntarios.
 
-## Definir tipos de clientes:
+## Tipos de clientes:
  - Esperanza Solidaria es una ONG enfocada en el ámbito socioeconómico que dentro de España busca clientes que compartan nuestros ideales y que estén dispuestos a colaborar y ayudar con los proyectos que ofrecemos de forma solidaria.
 
 ## Número de empleados y su Rol
