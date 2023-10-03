@@ -1,7 +1,7 @@
 # M10_GRUP9
 Repositorio grupo I DAM2B.
-ONG
-|a|b|c|
-|def|
 
-##Subtitulo 01
+Informacio de la empressa
+· Tercer Sector
+· Tamaño Mediano
+
