@@ -1,4 +1,4 @@
-# ONG ESPERANZA SOLIDARIO
+# ONG ESPERANZA SOLIDARIA
 ## Indice
 * Informacion empresa
 * Classificar la empresa
