@@ -16,10 +16,10 @@ Con el siguiente logotipo:
 * Reclutar y capacitar a voluntarios para ayudar en todas las áreas de trabajo, desde la distribución de alimentos hasta la gestión del refugio.  
   
 ## Classificar la empresa
-Segun el estado de nuestra empresa la hemos catalogado en los siguientes puntos
-* Tercer Sector
-* Tamaño Mediano
-* Propietat capital publica
-* Actividad Regional
-* Sin ánimo de lucro
+Segun el estado de nuestra empresa la hemos catalogado en los siguientes puntos.
+* Tercer Sector.
+* Tamaño Mediano.
+* Propietat capital publica.
+* Actividad Regional.
+* Sin ánimo de lucro.
 
