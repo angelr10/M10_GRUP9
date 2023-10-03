@@ -1,16 +1,19 @@
 # ONG ESPERANZA SOLIDARIA
 ## Indice
-* Informacion empresa
-* Classificar la empresa
-* Areas funcionales
-* Necesidades de la empresa
-* Tipos de clientes
-* Numeros de empleados
+* Informacion empresa [ Informacion empresa](https://github.com/angelr10/M10_GRUP9#informacion-empresa)
+* Classificar la empresa [Classificar la empresa](https://github.com/angelr10/M10_GRUP9#classificar-la-empresa)
+* Areas funcionales [Areas funcionales](https://www.google.com)
+* Necesidades de la empresa [Necesidades de la empresa](https://www.google.com)
+* Tipos de clientes [Tipos de clientes](https://www.google.com)
+* Numeros de empleados [Numeros de empleados](https://www.google.com)
 
 ## Informacion empresa
 Nuestra empresa es llamada:
 * **Esperanza Solidaria**
-Con el siguiente logotipo:
+Con el siguiente logotipo: 
+
+<img src="imagenes/ImagenEsperanza.PNG" alt="LOGO" style="fixed: right; margin-left: 40px;" width="200"/>
+
 * Esperanza solidaria se encuentra en C/ Duque de Alba 15, MADRID, ESPAÑA  
 * Queremos ayudar al mayor número de población con todo lo que tenemos, en un futuro tenemos como objetivo poder dirigir varios puestos de alimentos,ropa y hogar por cada comunidad autónoma de españa de esta forma ofrecer nuestra mejor ayuda a toda la población que lo necesite sin importar donde se encuentre, nuestro objetivo como ONG no puede ser otro que ayudar a todo aquel que necesite auxilio:  
 * Reclutar y capacitar a voluntarios para ayudar en todas las áreas de trabajo, desde la distribución de alimentos hasta la gestión del refugio.  
@@ -23,10 +26,33 @@ Segun el estado de nuestra empresa la hemos catalogado en los siguientes puntos.
 * Actividad Regional.
 * Sin ánimo de lucro.
 
+## Áreas funcionales:
+ #### Dirección (Plan estratégico):
+ - Director Ejecutivo: Encargado de la supervisión general y toma de decisiones estratégicas.
+ #### RRHH (Gestión  personal):
+ - Jefe de Recursos Humanos: Responsable de la gestión del personal y el voluntariado.
+ - Reclutamiento y selección: Encargado de la contratación y selección de personal y voluntarios.
+ - Formación y Desarrollo: Se ocupa de la capacitación y el desarrollo del personal y voluntarios.
+ - Gestión de Voluntarios: Coordinación de actividades y asignación de voluntarios a proyectos.
+ - Director de Programas: Supervisión de todas las actividades y programas de ayuda.
 
+#### Marketing y ventas
+  - Director de Marketing y Ventas: Responsable de las estrategias de promoción y captación de recursos.
+ - Marketing y Comunicaciones: Diseño e implementación de estrategias de marketing y - - comunicaciones.
+ - Campañas de Concienciación: Creación y ejecución de campañas para sensibilizar a la comunidad.
+ - Relaciones Públicas: Mantenimiento de relaciones con medios y colaboradores. 
+ - Redes Sociales y Página Web: Gestión de presencia en línea y redes sociales.
+ - Recopilación de Donaciones: Gestión de donaciones y recursos financieros.
+ - Eventos de Recaudación de Fondos: Organización de eventos para recaudar fondos.
+ - Ventas de Productos Benéficos: Si la ONG vende productos para recaudar fondos.
+ - Desarrollo de Productos: Diseño y desarrollo de productos benéficos.
+ - Ventas y Distribución: Venta y distribución de productos benéficos.
 
-
-
+#### Logística
+ - Gestión financiera: Llevar registros precisos de ingresos y gastos, y administrar el presupuesto de la organización.
+ - Coordinación de entregas: Planificar rutas y tiempos para la distribución de comida y  ropa.
+ - Gestión de inventario: Mantener un inventario de las donaciones y controlar su distribución.
+ - Evaluar el impacto de tus programas y hacer ajustes según sea necesario para mejorar la eficacia.
 
 ## Necesidades de la empresa
 
@@ -47,36 +73,8 @@ Personal capacitado para cocinar, atención médica básica, etc.
     
 - **Seguridad:** Medidas de seguridad adecuadas en el refugio de emergencia y el comedor social para proteger tanto a los beneficiarios como al personal y voluntarios.
 
-## Definir tipus de clients:
+## Definir tipos de clientes:
  - Esperanza Solidaria es una ONG enfocada en el ámbito socioeconómico que dentro de España busca clientes que compartan nuestros ideales y que estén dispuestos a colaborar y ayudar con los proyectos que ofrecemos de forma solidaria.
-
-## Àrees funcionals:
- #### Direcció (Pla estratègic):
- - Director Ejecutivo: Encargado de la supervisión general y toma de decisiones estratégicas.
- #### RRHH (Gestió de personal):
- - Jefe de Recursos Humanos: Responsable de la gestión del personal y el voluntariado.
- - Reclutamiento y selección: Encargado de la contratación y selección de personal y voluntarios.
- - Formación y Desarrollo: Se ocupa de la capacitación y el desarrollo del personal y voluntarios.
- - Gestión de Voluntarios: Coordinación de actividades y asignación de voluntarios a proyectos.
- - Director de Programas: Supervisión de todas las actividades y programas de ayuda.
-
-#### Marketing i vendes
-  - Director de Marketing y Ventas: Responsable de las estrategias de promoción y captación de recursos.
- - Marketing y Comunicaciones: Diseño e implementación de estrategias de marketing y - - comunicaciones.
- - Campañas de Concienciación: Creación y ejecución de campañas para sensibilizar a la comunidad.
- - Relaciones Públicas: Mantenimiento de relaciones con medios y colaboradores. 
- - Redes Sociales y Página Web: Gestión de presencia en línea y redes sociales.
- - Recopilación de Donaciones: Gestión de donaciones y recursos financieros.
- - Eventos de Recaudación de Fondos: Organización de eventos para recaudar fondos.
- - Ventas de Productos Benéficos: Si la ONG vende productos para recaudar fondos.
- - Desarrollo de Productos: Diseño y desarrollo de productos benéficos.
- - Ventas y Distribución: Venta y distribución de productos benéficos.
-
-#### Logistica
- - Gestión financiera: Llevar registros precisos de ingresos y gastos, y administrar el presupuesto de la organización.
- - Coordinación de entregas: Planificar rutas y tiempos para la distribución de comida y  ropa.
- - Gestión de inventario: Mantener un inventario de las donaciones y controlar su distribución.
- - Evaluar el impacto de tus programas y hacer ajustes según sea necesario para mejorar la eficacia.
 
 ## Número de empleados y su Rol
 - Directores de la empresa 4.
