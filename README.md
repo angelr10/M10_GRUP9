@@ -1,5 +1,5 @@
 # M10_GRUP9
-## indice
+## Indice
 * Informacion empresa
 * Classificar la empresa
 * Areas funcionales
@@ -23,3 +23,44 @@ Segun el estado de nuestra empresa la hemos catalogado en los siguientes puntos.
 * Actividad Regional.
 * Sin ánimo de lucro.
 
+
+
+
+
+
+## Necesidades de la empresa
+
+- **Recursos Financieros:** Fondos para llevar a cabo los servicios, incluyendo la compra de alimentos, mantenimiento de instalaciones, y pago de personal si es necesario.
+
+- **Donaciones de Ropa y Comida:** Necesitamos suministro de ropa y alimentos para distribuir a las personas necesitadas.
+
+- **Voluntarios y Personal:** Voluntarios dispuestos a ayudar en la recolección, distribución de alimentos, gestión del refugio y otras tareas.
+Personal capacitado para cocinar, atención médica básica, etc.
+
+- **Instalaciones:** Espacio para el comedor social y el refugio de emergencia. Equipamiento necesario para almacenar y distribuir ropa y alimentos.
+
+- **Apoyo Comunitario:** Apoyo y participación activa de la comunidad local a través de donaciones, voluntarios, etc.
+
+- **Conciencia Pública:** Estrategias de comunicación efectivas para aumentar la conciencia pública sobre los problemas de las personas sin hogar y las acciones de la ONG.
+
+- **Apoyo Legal:** Necesitamos asesoramiento legal para asegurar-nos de que la ONG cumpla con todos los requisitos legales.    
+    
+- **Seguridad:** Medidas de seguridad adecuadas en el refugio de emergencia y el comedor social para proteger tanto a los beneficiarios como al personal y voluntarios.
+
+
+
+
+
+
+
+
+
+
+
+## Número de empleados y su Rol
+- Directores de la empresa 4.
+- Encargados de puntos de alimento/ropa 4 (1 por local). 
+- 16 voluntarios (4 por local). 
+- 3 Personas encargadas de RRHH.
+- 2 Personas encargadas del marketing.
+- 4 Personas encargadas de la logística.
