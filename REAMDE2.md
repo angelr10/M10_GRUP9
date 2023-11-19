@@ -57,4 +57,22 @@ Al tener el contenido de la pagina web adaptado al wireframe y los ajustes que s
 
 En esta nueva entrevista con el Product Manager hemos podido cumplir las expectativas a pesar de hacer cambios significativos pero bien encaminados para el producto final, en concreto se nos ha pedido cambiar el tamaño del logo para un mayor reconocimiento de la marca, actualizar la paleta de colores que usemos en la tipografia a una mas clara, y rellenar de mejor forma algunas zonas que han quedado vacias para evitar desbalance visual en la pantalla provocado por la falta de texto. 
 
+### Wireframe
 
+![wirerame1](/imagenes/wireframe1.jpg)
+![wirerame2](/imagenes/wireframe2.jpg)
+![wirerame3](/imagenes/wireframe3.jpg)
+![wirerame4](/imagenes/wireframe4.jpg)
+![wirerame5](/imagenes/wireframe5.jpg)
+
+### Mockup
+
+![Figma1](/imagenes/figma1.png)
+![Figma2](/imagenes/figma2.png)
+![Figma3](/imagenes/figma3.png)
+![Figma4](/imagenes/figma4.png)
+![Figma5](/imagenes/figma5.png)
+![Figma6](/imagenes/figma6.png)
+![Figma7](/imagenes/figma7.png)
+![Figma8](/imagenes/figma8.png)
+![Figma9](/imagenes/figma9.png)
