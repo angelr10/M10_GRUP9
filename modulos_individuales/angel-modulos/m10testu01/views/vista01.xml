@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Acción para abrir la vista -->
+    <record id="action_mi_modulo" model="ir.actions.act_window">
+        <field name="name">Mi Módulo</field>
+        <field name="res_model">mi.modulo</field>
+        <field name="view_mode">form</field>
+    </record>
+
+    <!-- Menú para el módulo -->
+    <menuitem id="menu_mi_modulo" name="Mi Módulo" sequence="10"/>
+    <menuitem id="submenu_mi_modulo" name="Ver Módulo" parent="menu_mi_modulo" action="action_mi_modulo" sequence="10"/>
+
+    <!-- Vista formulario con el mensaje -->
+    <record id="view_form_mi_modulo" model="ir.ui.view">
+        <field name="name">mi.modulo.form</field>
+        <field name="model">mi.modulo</field>
+        <field name="arch" type="xml">
+            <form string="Mi Módulo">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                    </group>
+                    <h1>Estas en el modulo instalado</h1>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>
