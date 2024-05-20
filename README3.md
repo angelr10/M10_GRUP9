@@ -20,30 +20,15 @@ Módulos de Angel:
 
 Descripción de los Módulos:
 
-Marketing Virtual (Angel):
-El módulo de Marketing Virtual permitirá gestionar y analizar campañas de marketing. Sus principales características incluyen:
 
-Visualización de información detallada de las campañas, como fechas de inicio y finalización, productos afectados, público objetivo y número de registros de usuarios ganados en comparación con la media de usuarios comunes.
-Registro de gastos e ingresos obtenidos de las campañas, junto con los productos afectados.
-Contabilidad (Angel):
-El módulo de Contabilidad ofrece funcionalidades para gestionar los aspectos financieros del negocio. Sus características incluyen:
 
-Registro de costes de materias primas y productos.
-Seguimiento detallado de las ventas de productos, permitiendo obtener información sobre las ventas en meses específicos.
-Generación de informes financieros y análisis de rentabilidad.
-Comercio Electrónico (Angel):
-El módulo de Comercio Electrónico facilita la interacción con los clientes a través del correo electrónico. Sus funcionalidades principales son:
+Compra (Angel):
 
-Interacción con los correos electrónicos de los usuarios registrados, enviando promociones, información sobre eventos y productos, y otros avisos personalizables.
-Personalización de los correos electrónicos en función de los productos de interés marcados por los usuarios.
-Compras (Desarrollado por otro equipo):
-El módulo de Compras gestiona la relación con los proveedores y el proceso de adquisición de productos. Sus funcionalidades principales incluyen:
+Este modulo dara servicio a la empresa para proporcionar informacion tanto de proveedores commo los contratos  y productos asociados cone estos, tambien obtendremos un registro mensual que nos permitira obtener los gastos y productos recibidos, ademas de la informaciond e los contratos especificando en los gastos mensuales, dias de entrega, cantidad y beneficio obtenido, mas nos permitira agregar, eliminar, rechazar y aceptar contratos.
 
-Visualización de productos ofrecidos por los proveedores.
-Registro mensual de gastos y productos recibidos.
-Gestión de contratos, incluyendo gastos mensuales, días de entrega, cantidad y beneficios obtenidos.
-Objetivo:
-El objetivo de estos módulos descargados de la web es mejorar la gestión empresarial, proporcionando herramientas para optimizar procesos, analizar datos y mejorar la relación con clientes y proveedores. Cada módulo tiene un enfoque específico para abordar las necesidades particulares de cada área funcional del negocio.
+Comercio electronico (Angel):
+
+Este modulo ofrece la  capacidad de interactuar con todo usuario que este registrrado con un email en la base de datos de la emrpesa, donde previamente al registro marcara el interes que tiene a las categorias que ofrece june y proporcionara un servicio de mensajes personalizado a los     gustos especificados, de esta forma recibira descuentos,ofertas, anuncios de su interes, donde la empresa tambien puede personalizar el mensaje y los destinatarios.
 
 CRM (Sebastian):
 
