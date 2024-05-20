@@ -1,0 +1,41 @@
+<odoo>
+    <!-- Definición del menú principal -->
+    <menuitem id="menu_email_root" name="Emails" sequence="10"/>
+
+    <!-- Definición de la acción -->
+    <record id="action_emails_01" model="ir.actions.act_window">
+        <field name="name">Emails</field>
+        <field name="res_model">emails_01</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Crea tu primer email
+            </p>
+        </field>
+    </record>
+
+    <!-- Definición de la vista de formulario -->
+    <record id="view_form_emails_01" model="ir.ui.view">
+        <field name="name">emails_01.form</field>
+        <field name="model">emails_01</field>
+        <field name="arch" type="xml">
+            <form string="Formulario de Emails">
+                <header>
+                    <h1>Título del Formulario</h1>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="campo_texto1" placeholder="Ingrese el texto 1"/>
+                        <field name="campo_texto2" placeholder="Ingrese el texto 2"/>
+                    </group>
+                    <footer>
+                        <button name="guardar" string="Guardar" type="object" class="btn-primary"/>
+                    </footer>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Definición del submenú que referencia la acción -->
+    <menuitem id="menu_emails_01" name="Emails 01" parent="menu_email_root" action="action_emails_01"/>
+</odoo>
