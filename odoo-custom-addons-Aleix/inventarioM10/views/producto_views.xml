@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- Vista de lista para los productos -->
+        <record id="view_producto_tree" model="ir.ui.view">
+            <field name="name">producto.tree</field>
+            <field name="model">inventarioM10.producto</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="nombre"/>
+                    <field name="cantidad"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Vista de formulario para los productos -->
+        <record id="view_producto_form" model="ir.ui.view">
+            <field name="name">producto.form</field>
+            <field name="model">inventarioM10.producto</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="nombre"/>
+                            <field name="descripcion"/>
+                            <field name="cantidad"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Acción de ventana para el modelo Producto -->
+        <record id="action_producto" model="ir.actions.act_window">
+            <field name="name">Productos</field>
+            <field name="res_model">inventarioM10.producto</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Menú principal para InventarioM10 -->
+        <menuitem id="inventarioM10_menu" name="InventarioM10" sequence="5"/>
+
+        <!-- Submenú para acceder a la lista de productos -->
+        <menuitem id="inventarioM10_producto_menu" name="Productos" parent="inventarioM10_menu" action="action_producto" sequence="1"/>
+    </data>
+</odoo>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- Menú principal para el módulo de Gestión de Empleados -->
+        <menuitem id="empleadosm10_menu_root" name="Gestión de Empleados" sequence="10"/>
+
+        <!-- Acción para abrir la vista de lista de empleados -->
+        <record model="ir.actions.act_window" id="empleadosm10_empleado_action">
+            <field name="name">Empleados</field>
+            <field name="res_model">empleadosm10.empleado</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Submenú para el modelo de Empleados -->
+        <menuitem id="empleadosm10_menu_empleado" name="Empleados" parent="empleadosm10_menu_root" action="empleadosm10_empleado_action"/>
+
+        <!-- Vista de formulario para empleados -->
+        <record id="empleadosm10_empleado_form_view" model="ir.ui.view">
+            <field name="name">empleadosm10.empleado.form</field>
+            <field name="model">empleadosm10.empleado</field>
+            <field name="arch" type="xml">
+                <form string="Empleado">
+                    <sheet>
+                        <group>
+                            <field name="nombre"/>
+                            <field name="identificacion"/>
+                            <field name="puesto"/>
+                            <field name="departamento"/>
+                            <field name="email"/>
+                            <field name="telefono"/>
+                            <field name="imagen" widget='image' class="oe_avatar" options='{"preview_image": "imagen_medium", "size": [90, 90]}'/>
+
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Vista de lista para empleados -->
+        <record id="empleadosm10_empleado_tree_view" model="ir.ui.view">
+            <field name="name">empleadosm10.empleado.tree</field>
+            <field name="model">empleadosm10.empleado</field>
+            <field name="arch" type="xml">
+                <tree string="Empleados">
+                    <field name="nombre"/>
+                    <field name="puesto"/>
+                    <field name="departamento"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>

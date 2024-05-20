@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- Registro del modelo para el control de acceso -->
+        <record id="model_inventarioM10_producto" model="ir.model">
+            <field name="name">producto</field>
+            <field name="model">x_inventarioM10_producto</field>
+            <field name="state">manual</field>
+        </record>
+    </data>
+</odoo>

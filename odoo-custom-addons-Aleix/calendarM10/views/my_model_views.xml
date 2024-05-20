@@ -1,0 +1,57 @@
+<!-- views/my_model_views.xml -->
+
+<odoo>
+    <!-- Acción para abrir la vista de lista de eventos -->
+    <record model="ir.actions.act_window" id="action_calendar_events">
+        <field name="name">Events</field>
+        <field name="res_model">calendar.event</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first event!
+            </p>
+        </field>
+    </record>
+
+    <!-- Vista de formulario para crear/editar eventos -->
+    <record id="view_form_calendar_event" model="ir.ui.view">
+        <field name="name">calendar.event.form</field>
+        <field name="model">calendar.event</field>
+        <field name="arch" type="xml">
+            <form string="Evento">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="start_datetime"/>
+                        <field name="end_datetime"/>
+                        <field name="all_day"/>
+                        <field name="location"/>
+                        <field name="description"/>
+                        <field name="event_type"/>
+                        <field name="impact_expected"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    
+    <!-- Vista de lista para mostrar eventos -->
+    <record id="view_tree_calendar_event" model="ir.ui.view">
+        <field name="name">calendar.event.tree</field>
+        <field name="model">calendar.event</field>
+        <field name="arch" type="xml">
+            <tree string="Eventos">
+                <field name="name"/>
+                <field name="start_datetime"/>
+                <field name="end_datetime"/>
+                <field name="event_type"/>
+            </tree>
+        </field>
+    </record>
+    
+    <!-- Menú principal para el módulo de Calendario -->
+    <menuitem id="main_calendar_menu" name="Calendario" sequence="10"/>
+    
+    <!-- Elemento de menú para acceder a los eventos, bajo el menú principal de Calendario -->
+    <menuitem id="calendar_event_menu" name="Eventos del Calendario" action="action_calendar_events" parent="main_calendar_menu"/>
+</odoo>
