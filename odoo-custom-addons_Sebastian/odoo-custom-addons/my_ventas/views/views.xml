@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Define la vista para el formulario de productos -->
+        <record id="view_producto_form" model="ir.ui.view">
+            <field name="name">producto.form</field>
+            <field name="model">my_ventas.producto</field>
+            <field name="arch" type="xml">
+                <form string="Productos">
+                    <sheet>
+                        <group>
+                            <!-- Campos a mostrar en el formulario -->
+                            <field name="name"/>
+                            <field name="precio"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Define la vista para la lista de productos -->
+        <record id="view_producto_tree" model="ir.ui.view">
+            <field name="name">producto.tree</field>
+            <field name="model">my_ventas.producto</field>
+            <field name="arch" type="xml">
+                <tree string="Productos">
+                    <field name="name"/>
+                    <field name="precio"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Define una vista para el formulario de ventas -->
+        <record id="view_ventas_form" model="ir.ui.view">
+            <field name="name">ventas.form</field>
+            <field name="model">my_ventas.ventas</field>
+            <field name="arch" type="xml">
+                <form string="Ventas">
+                    <sheet>
+                        <group>
+                            <!-- Campos a mostrar en el formulario -->
+                            <field name="name"/>
+                            <field name="fecha"/>
+                            <field name="cliente_id"/>
+                            <field name="producto_ids"/>
+                            <field name="total"/>
+                            <field name="estado"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Define una vista para la lista de ventas -->
+        <record id="view_ventas_tree" model="ir.ui.view">
+            <field name="name">ventas.tree</field>
+            <field name="model">my_ventas.ventas</field>
+            <field name="arch" type="xml">
+                <tree string="Ventas">
+                    <field name="name"/>
+                    <field name="fecha"/>
+                    <field name="cliente_id"/>
+                    <field name="total"/>
+                    <field name="estado"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Define la vista para el formulario de clientes -->
+        <record id="view_cliente_form" model="ir.ui.view">
+            <field name="name">cliente.form</field>
+            <field name="model">my_ventas.cliente</field>
+            <field name="arch" type="xml">
+                <form string="Clientes">
+                    <sheet>
+                        <group>
+                            <!-- Campos a mostrar en el formulario -->
+                            <field name="name"/>
+                            <field name="email"/>
+                            <field name="telefono"/>
+                            <field name="direccion"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Define la vista para la lista de clientes -->
+        <record id="view_cliente_tree" model="ir.ui.view">
+            <field name="name">cliente.tree</field>
+            <field name="model">my_ventas.cliente</field>
+            <field name="arch" type="xml">
+                <tree string="Clientes">
+                    <field name="name"/>
+                    <field name="email"/>
+                    <field name="telefono"/>
+                    <field name="direccion"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Define una acción para abrir la vista de clientes -->
+        <record id="action_cliente_form" model="ir.actions.act_window">
+            <field name="name">Clientes</field>
+            <field name="res_model">my_ventas.cliente</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Haz clic en el botón de arriba para agregar un nuevo cliente.
+                </p>
+            </field>
+        </record>
+
+        <!-- Define las acciones para abrir las vistas -->
+        <record id="action_producto_form" model="ir.actions.act_window">
+            <field name="name">Productos</field>
+            <field name="res_model">my_ventas.producto</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Haz clic en el botón de arriba para agregar un nuevo producto.
+                </p>
+            </field>
+        </record>
+
+        <record id="action_ventas_form" model="ir.actions.act_window">
+            <field name="name">Ventas</field>
+            <field name="res_model">my_ventas.ventas</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Haz clic en el botón de arriba para agregar una nueva venta.
+                </p>
+            </field>
+        </record>
+
+        <!-- Define una acción para abrir la vista de clientes -->
+        <record id="action_cliente_form" model="ir.actions.act_window">
+            <field name="name">Clientes</field>
+            <field name="res_model">my_ventas.cliente</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Haz clic en el botón de arriba para agregar un nuevo cliente.
+                </p>
+            </field>
+        </record>
+
+        <!-- Define los elementos de menú para acceder a las vistas -->
+        <menuitem id="menu_sales" name="Ventas"/>
+        <menuitem id="menu_product" name="Productos" parent="menu_sales" action="action_producto_form"/>
+        <menuitem id="menu_ventas" name="Ventas" parent="menu_sales" action="action_ventas_form"/>
+        <menuitem id="menu_cliente" name="Clientes" parent="menu_sales" action="action_cliente_form"/>
+    </data>
+</odoo>
