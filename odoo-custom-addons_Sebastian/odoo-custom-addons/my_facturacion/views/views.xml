@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Formulario para la entidad my_facturacion.my_facturacion -->
+        <record model="ir.ui.view" id="view_my_facturacion_form">
+            <field name="name">my_facturacion.my_facturacion.form</field>
+            <field name="model">my_facturacion.my_facturacion</field>
+            <field name="arch" type="xml">
+                <form string="My Facturacion">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="value"/>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Vista de árbol para la entidad my_facturacion.my_facturacion -->
+        <record model="ir.ui.view" id="view_my_facturacion_tree">
+            <field name="name">my_facturacion.my_facturacion.tree</field>
+            <field name="model">my_facturacion.my_facturacion</field>
+            <field name="arch" type="xml">
+                <tree string="My Facturacion">
+                    <field name="name"/>
+                    <field name="value"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Acción para la entidad my_facturacion.my_facturacion -->
+        <record model="ir.actions.act_window" id="action_my_facturacion">
+            <field name="name">My Facturacion</field>
+            <field name="res_model">my_facturacion.my_facturacion</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Formulario para la entidad my_facturacion.factura -->
+        <record model="ir.ui.view" id="view_factura_form">
+            <field name="name">my_facturacion.factura.form</field>
+            <field name="model">my_facturacion.factura</field>
+            <field name="arch" type="xml">
+                <form string="Factura">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="fecha"/>
+                            <field name="cliente_id"/>
+                            <field name="total"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Vista de árbol para la entidad my_facturacion.factura -->
+        <record model="ir.ui.view" id="view_factura_tree">
+            <field name="name">my_facturacion.factura.tree</field>
+            <field name="model">my_facturacion.factura</field>
+            <field name="arch" type="xml">
+                <tree string="Facturas">
+                    <field name="name"/>
+                    <field name="fecha"/>
+                    <field name="cliente_id"/>
+                    <field name="total"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Acción para la entidad my_facturacion.factura -->
+        <record model="ir.actions.act_window" id="action_factura">
+            <field name="name">Facturas</field>
+            <field name="res_model">my_facturacion.factura</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Formulario para la entidad my_facturacion.linea_factura -->
+        <record model="ir.ui.view" id="view_linea_factura_form">
+            <field name="name">my_facturacion.linea_factura.form</field>
+            <field name="model">my_facturacion.linea_factura</field>
+            <field name="arch" type="xml">
+                <form string="Línea de Factura">
+                    <sheet>
+                        <group>
+                            <field name="factura_id"/>
+                            <field name="producto_id"/>
+                            <field name="cantidad"/>
+                            <field name="precio_unitario"/>
+                            <field name="subtotal"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Vista de árbol para la entidad my_facturacion.linea_factura -->
+        <record model="ir.ui.view" id="view_linea_factura_tree">
+            <field name="name">my_facturacion.linea_factura.tree</field>
+            <field name="model">my_facturacion.linea_factura</field>
+            <field name="arch" type="xml">
+                <tree string="Líneas de Factura">
+                    <field name="factura_id"/>
+                    <field name="producto_id"/>
+                    <field name="cantidad"/>
+                    <field name="precio_unitario"/>
+                    <field name="subtotal"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Acción para la entidad my_facturacion.linea_factura -->
+        <record model="ir.actions.act_window" id="action_linea_factura">
+            <field name="name">Líneas de Factura</field>
+            <field name="res_model">my_facturacion.linea_factura</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        
+        <!-- Acción para la entidad my_facturacion.producto -->
+        <record model="ir.actions.act_window" id="action_producto">
+            <field name="name">Productos</field>
+            <field name="res_model">my_facturacion.producto</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <!-- Menús -->
+        <menuitem id="menu_producto" name="Productos" parent="menu_my_facturacion_root" action="action_producto"/>
+        <menuitem id="menu_my_facturacion_root" name="Facturación"/>
+        <menuitem id="menu_my_facturacion" name="My Facturacion" parent="menu_my_facturacion_root" action="action_my_facturacion"/>
+        <menuitem id="menu_factura" name="Facturas" parent="menu_my_facturacion_root" action="action_factura"/>
+
+    </data>
+</odoo>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Vista para el modelo crm.juno.customer -->
+    <record id="view_crm_juno_customer_form" model="ir.ui.view">
+        <field name="name">crm.juno.customer.form</field>
+        <field name="model">crm.juno.customer</field>
+        <field name="arch" type="xml">
+            <form string="Customer Form">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="email"/>
+                        <field name="phone"/>
+                        <field name="address"/>
+                        <field name="client_type"/>
+                        <field name="orders"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vista para el modelo crm.juno.order -->
+    <record id="view_crm_juno_order_form" model="ir.ui.view">
+        <field name="name">crm.juno.order.form</field>
+        <field name="model">crm.juno.order</field>
+        <field name="arch" type="xml">
+            <form string="Order Form">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="date_order"/>
+                        <field name="customer_id"/>
+                        <field name="product_ids"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vista para el modelo my_facturacion.producto -->
+    <record id="view_my_facturacion_producto_form" model="ir.ui.view">
+        <field name="name">my.facturacion.producto.form</field>
+        <field name="model">my_facturacion.producto</field>
+        <field name="arch" type="xml">
+            <form string="Product Form">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="precio"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Vista para el modelo crm_modulo.potential_customer -->
+    <record id="view_crm_modulo_potential_customer_form" model="ir.ui.view">
+        <field name="name">crm.modulo.potential.customer.form</field>
+        <field name="model">crm_modulo.potential_customer</field>
+        <field name="arch" type="xml">
+            <form string="Potential Customer Form">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="email"/>
+                        <field name="phone"/>
+                        <field name="address"/>
+                        <field name="customer_id"/>
+                        <field name="description"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Menús para acceder a las vistas -->
+    <menuitem id="menu_crm_juno" name="CRM Juno"/>
+    <menuitem id="menu_crm_juno_customer" name="Customers" parent="menu_crm_juno"/>
+    <menuitem id="menu_crm_juno_order" name="Orders" parent="menu_crm_juno"/>
+    <menuitem id="menu_my_facturacion_producto" name="Products" parent="menu_crm_juno"/>
+    <menuitem id="menu_crm_modulo_potential_customer" name="Potential Customers" parent="menu_crm_juno"/>
+
+    <!-- Acciones para abrir las vistas -->
+    <record id="action_crm_juno_customer" model="ir.actions.act_window">
+        <field name="name">Customers</field>
+        <field name="res_model">crm.juno.customer</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_crm_juno_order" model="ir.actions.act_window">
+        <field name="name">Orders</field>
+        <field name="res_model">crm.juno.order</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_my_facturacion_producto" model="ir.actions.act_window">
+        <field name="name">Products</field>
+        <field name="res_model">my_facturacion.producto</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_crm_modulo_potential_customer" model="ir.actions.act_window">
+        <field name="name">Potential Customers</field>
+        <field name="res_model">crm_modulo.potential_customer</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Acciones de menú para abrir las vistas -->
+    <menuitem id="menu_action_crm_juno_customer" name="Customers" parent="menu_crm_juno" action="action_crm_juno_customer"/>
+    <menuitem id="menu_action_crm_juno_order" name="Orders" parent="menu_crm_juno" action="action_crm_juno_order"/>
+    <menuitem id="menu_action_my_facturacion_producto" name="Products" parent="menu_crm_juno" action="action_my_facturacion_producto"/>
+    <menuitem id="menu_action_crm_modulo_potential_customer" name="Potential Customers" parent="menu_crm_juno" action="action_crm_modulo_potential_customer"/>
+
+</odoo>
