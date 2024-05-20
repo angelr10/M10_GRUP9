@@ -26,9 +26,13 @@ Compra (Angel):
 
 Este modulo dara servicio a la empresa para proporcionar informacion tanto de proveedores commo los contratos  y productos asociados cone estos, tambien obtendremos un registro mensual que nos permitira obtener los gastos y productos recibidos, ademas de la informaciond e los contratos especificando en los gastos mensuales, dias de entrega, cantidad y beneficio obtenido, mas nos permitira agregar, eliminar, rechazar y aceptar contratos.
 
+![Kanban](/imagenes/Esquema_tablas_compra.PNG)
+
 Comercio electronico (Angel):
 
 Este modulo ofrece la  capacidad de interactuar con todo usuario que este registrrado con un email en la base de datos de la emrpesa, donde previamente al registro marcara el interes que tiene a las categorias que ofrece june y proporcionara un servicio de mensajes personalizado a los     gustos especificados, de esta forma recibira descuentos,ofertas, anuncios de su interes, donde la empresa tambien puede personalizar el mensaje y los destinatarios.
+
+![Kanban](/imagenes/Esquema_tablas_comercio_electronico.PNG)
 
 CRM (Sebastian):
 
