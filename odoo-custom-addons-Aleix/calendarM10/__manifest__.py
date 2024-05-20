@@ -1,10 +1,10 @@
+
 {
     'name': 'calendarM10',
     'version': '1.0',
     'summary': 'Módulo para gestionar calendarios personalizados',
     'description': 'Este módulo permite la gestión de calendarios personalizados en Odoo.',
-    'author': 'Tu Nombre',
-    'website': 'https://tusitio.com',
+    'author': 'Aleix',
     'category': 'Tools',
     'depends': ['base'],
     'data': [
