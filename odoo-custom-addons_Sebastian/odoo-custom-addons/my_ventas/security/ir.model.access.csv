@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_my_ventas_my_ventas,my_ventas.my_ventas,model_my_ventas_my_ventas,base.group_user,1,1,1,1
