@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+empleadosm10.empleado_access,"Empleado Model Access",model_empleadosm10_empleado,,1,1,1,1
