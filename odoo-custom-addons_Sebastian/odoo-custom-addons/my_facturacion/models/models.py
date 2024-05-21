@@ -55,13 +55,4 @@ class Producto(models.Model):
     name = fields.Char(string='Nombre del Producto', required=True)
     precio = fields.Float(string='Precio')
 
-    @api.model
-    def create(self, vals):
-        producto = super(Producto, self).create(vals)
-        # Crear un producto correspondiente en el modelo 'juno.kids.product'
-        self.env['juno.kids.product'].create({
-            'name': vals.get('name', 'Producto sin nombre'),
-            'price': vals.get('precio', 0.0),
-        })
-        return producto
-
+    

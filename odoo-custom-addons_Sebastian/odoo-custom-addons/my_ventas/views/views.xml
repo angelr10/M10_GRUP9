@@ -4,7 +4,7 @@
         <!-- Define la vista para el formulario de productos -->
         <record id="view_producto_form" model="ir.ui.view">
             <field name="name">producto.form</field>
-            <field name="model">my_ventas.producto</field>
+            <field name="model">my_facturacion.producto</field>
             <field name="arch" type="xml">
                 <form string="Productos">
                     <sheet>
@@ -21,7 +21,7 @@
         <!-- Define la vista para la lista de productos -->
         <record id="view_producto_tree" model="ir.ui.view">
             <field name="name">producto.tree</field>
-            <field name="model">my_ventas.producto</field>
+            <field name="model">my_facturacion.producto</field>
             <field name="arch" type="xml">
                 <tree string="Productos">
                     <field name="name"/>
@@ -114,7 +114,7 @@
         <!-- Define las acciones para abrir las vistas -->
         <record id="action_producto_form" model="ir.actions.act_window">
             <field name="name">Productos</field>
-            <field name="res_model">my_ventas.producto</field>
+            <field name="res_model">my_facturacion.producto</field>
             <field name="view_mode">tree,form</field>
             <field name="help" type="html">
                 <p class="oe_view_nocontent_create">
@@ -130,18 +130,6 @@
             <field name="help" type="html">
                 <p class="oe_view_nocontent_create">
                     Haz clic en el botón de arriba para agregar una nueva venta.
-                </p>
-            </field>
-        </record>
-
-        <!-- Define una acción para abrir la vista de clientes -->
-        <record id="action_cliente_form" model="ir.actions.act_window">
-            <field name="name">Clientes</field>
-            <field name="res_model">my_ventas.cliente</field>
-            <field name="view_mode">tree,form</field>
-            <field name="help" type="html">
-                <p class="oe_view_nocontent_create">
-                    Haz clic en el botón de arriba para agregar un nuevo cliente.
                 </p>
             </field>
         </record>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <data>
-
         <!-- Formulario para la entidad my_facturacion.my_facturacion -->
         <record model="ir.ui.view" id="view_my_facturacion_form">
             <field name="name">my_facturacion.my_facturacion.form</field>
@@ -117,19 +116,52 @@
             <field name="res_model">my_facturacion.linea_factura</field>
             <field name="view_mode">tree,form</field>
         </record>
-        
-        <!-- Acción para la entidad my_facturacion.producto -->
-        <record model="ir.actions.act_window" id="action_producto">
+
+        <!-- Formulario para la entidad my_facturacion.producto -->
+        <record id="view_producto_form" model="ir.ui.view">
+            <field name="name">producto.form</field>
+            <field name="model">my_facturacion.producto</field>
+            <field name="arch" type="xml">
+                <form string="Productos">
+                    <sheet>
+                        <group>
+                            <!-- Campos a mostrar en el formulario -->
+                            <field name="name"/>
+                            <field name="precio"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Define la vista para la lista de productos -->
+        <record id="view_producto_tree" model="ir.ui.view">
+            <field name="name">producto.tree</field>
+            <field name="model">my_facturacion.producto</field>
+            <field name="arch" type="xml">
+                <tree string="Productos">
+                    <field name="name"/>
+                    <field name="precio"/>
+                </tree>
+            </field>
+        </record>
+
+        <!-- Define las acciones para abrir las vistas -->
+        <record id="action_producto_form" model="ir.actions.act_window">
             <field name="name">Productos</field>
             <field name="res_model">my_facturacion.producto</field>
             <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    Haz clic en el botón de arriba para agregar un nuevo producto.
+                </p>
+            </field>
         </record>
-
         <!-- Menús -->
-        <menuitem id="menu_producto" name="Productos" parent="menu_my_facturacion_root" action="action_producto"/>
         <menuitem id="menu_my_facturacion_root" name="Facturación"/>
         <menuitem id="menu_my_facturacion" name="My Facturacion" parent="menu_my_facturacion_root" action="action_my_facturacion"/>
         <menuitem id="menu_factura" name="Facturas" parent="menu_my_facturacion_root" action="action_factura"/>
+        <menuitem id="menu_producto" name="Productos" parent="menu_my_facturacion_root" action="action_producto_form"/>
 
     </data>
 </odoo>
