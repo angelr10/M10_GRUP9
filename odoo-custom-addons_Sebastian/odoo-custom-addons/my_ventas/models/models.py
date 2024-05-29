@@ -1,7 +1,4 @@
-# -*- coding: utf-8 -*-
-
 from odoo import models, fields, api
-
 
 class my_ventas(models.Model):
     _name = 'my_ventas.my_ventas'
@@ -24,7 +21,7 @@ class Ventas(models.Model):
     name = fields.Char(string='Nombre')
     fecha = fields.Date(string='Fecha')
     cliente_id = fields.Many2one('res.partner', string='Cliente')
-    producto_ids = fields.Many2many('product.product', string='Productos')
+    producto_ids = fields.Many2many('my_facturacion.producto', string='Productos')
     total = fields.Float(string='Total', compute='_compute_total', store=True)
     estado = fields.Selection([('borrador', 'Borrador'), ('confirmado', 'Confirmado'), ('entregado', 'Entregado')], 
                               string='Estado', default='borrador')
@@ -32,7 +29,7 @@ class Ventas(models.Model):
     @api.depends('producto_ids')
     def _compute_total(self):
         for venta in self:
-            total = sum(producto.list_price for producto in venta.producto_ids)
+            total = sum(producto.precio for producto in venta.producto_ids)
             venta.total = total
 
     def action_confirmar_venta(self):
@@ -51,8 +48,12 @@ class Cliente(models.Model):
     direccion = fields.Text(string='Dirección')
 
 class Producto(models.Model):
-    _name = 'my_ventas.producto'
-    _description = 'Productos'
+    _name = 'my_facturacion.producto'
+    _description = 'Producto'
 
-    name = fields.Char(string='Nombre', required=True)
+    name = fields.Char(string='Nombre del Producto', required=True)
     precio = fields.Float(string='Precio')
+
+    @api.model
+    def create(self, vals):
+        return super(Producto, self).create(vals)

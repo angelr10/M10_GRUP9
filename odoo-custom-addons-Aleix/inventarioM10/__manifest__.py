@@ -1,20 +1,17 @@
 {
-    'name': 'inventarioM10',
+    'name': 'inventariom10',
     'version': '1.0',
-    'summary': 'Gestión de Inventario para productos',
+    'summary': 'Gestión de Inventario para productos de ropa para niños',
     'sequence': 10,
-    'description': "Gestión de inventarios de productos.",
+    'description': """Gestión de inventarios de productos de ropa para niños.""",
     'category': 'Inventory',
     'author': 'Tu Nombre',
     'website': 'https://www.tuempresa.com',
     'license': 'AGPL-3',
     'depends': ['base'],
     'data': [
-        'data/model_product_data.xml',
-        'security/ir.model.access.csv',
-        'views/producto_views.xml',
+        'views/producto_views.xml'
     ],
-
     'demo': [],
     'installable': True,
     'application': True,
