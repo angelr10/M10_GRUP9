@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="angelcorreo03_email_template_1" model="mail.template">
+            <field name="name">Email Template for Angel Correo</field>
+            <field name="model_id" ref="/"/>
+            <field name="email_from">${(object.company_id.email or 'info@yourcompany.com')|safe}</field>
+            <field name="subject">Mensaje Importante para ${object.nombreCliente}</field>
+            <field name="email_to">${object.email}</field>
+            <field name="body_html" type="html">
+                <![CDATA[
+                <p>Hola ${object.nombreCliente},</p>
+                <p>${object.textoContenido}</p>
+                <p>Saludos,</p>
+                <p>Tu equipo de Angel Correo</p>
+                ]]>
+            </field>
+            <field name="auto_delete" eval="True"/>
+        </record>
+    </data>
+</odoo>

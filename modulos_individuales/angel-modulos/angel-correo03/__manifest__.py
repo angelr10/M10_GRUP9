@@ -1,14 +1,13 @@
 # -*- coding: utf-8 -*-
 #encargggggggggado de informacion del modulo
 {
-    'name': "angel-correo03",
+    'name': "angel-correov001",
 
     'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
+        Modulo encargado de enviar correos a los clientes segun su preferencia""",
 
     'description': """
-        Long description of module's purpose
+        Este modulo se centra en permitir al administrador enviar un modulo a los grupos de personas que hayan permitido recibir contenido promocional
     """,
 
     'author': "My Company",
@@ -21,17 +20,13 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','mail'],
 
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'views/views.xml',
+        'views/vista01.xml',
     ],
     'installable': True,
     'application': True,
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
 }

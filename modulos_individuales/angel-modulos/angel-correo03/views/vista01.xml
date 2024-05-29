@@ -1,0 +1,67 @@
+<odoo>
+    <record id="angel_correo_view_tree" model="ir.ui.view">
+        <field name="name">angelcorreo03.correo.view.tree</field>
+        <field name="model">angelcorreo03.correo</field>
+        <field name="arch" type="xml">
+            <tree string="Correo">
+                <field name="email" string="Email"/>
+                <field name="nombreCliente" string="Nombre del cliente"/>
+                <field name="tipoCorreo" string="Tipocorreo"/>
+            </tree>
+        </field>
+    </record>
+    <record id="angel_correo_form_view" model="ir.ui.view">
+        <field name="name">angelcorreo03.correo.form.view</field>
+        <field name="model">angelcorreo03.correo</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="email" string="Email"/>
+                <field name="nombreCliente" string="Email"/>
+                <field name="tipoCorreo" string="Email"/>
+            </form>
+        </field>
+    </record>
+    <record id="angel_correo_accion" model="ir.actions.act_window">
+        <field name="name">Correo</field>
+        <field name="res_model">angelcorreo03.correo</field>
+        <field name="view_mode">tree,form</field>
+        
+    </record>
+
+    <record id="view_enviar_correos" model="ir.ui.view">
+        <field name="name">angelcorreo03.busquedacorreo.form.view</field>
+        <field name="model">angelcorreo03.busquedacorreo</field>
+        <field name="arch" type="xml">
+            <form string="Enviar Correo">
+                <sheet>
+                    <group>
+                        <field name="tipoCorreo"/>
+                        <field name="textoContenido"/>
+                        <button name="send_email" type="object" string="Enviar Correo" class="btn-primary"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_enviar_correos" model="ir.actions.act_window">
+        <field name="name">angelcorreo03.busquedacorreo.accion</field>
+        <field name="res_model">angelcorreo03.busquedacorreo</field>
+        <field name="view_mode">form</field>
+    </record>
+
+    <menuitem id="angel_correo_menu" 
+        name="correos"/>
+    <menuitem id="angel_correo_sub_menu" 
+        name="Acciones a correos"
+        parent="angel_correo_menu"/>
+    <menuitem id="angel_correo_sub_menu_dos" 
+        name="Listado correos"
+        action="angel_correo_accion"
+        parent="angel_correo_sub_menu"/>
+    <menuitem id="angel_correo_sub_menu_tres" 
+        name="Enviar correos masivos"
+        action="action_enviar_correos"
+        parent="angel_correo_sub_menu"/>
+        
+</odoo>

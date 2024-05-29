@@ -1,3 +1,2 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_mi_modulo,access_mi_modulo,model_mi_modulo,base.group_user,1,1,1,1
-
+access_angelcorreo03_correo,correo_model_accces,model_angelcorreo03_correo,base.group_user,1,1,1,1
